@@ -29,7 +29,21 @@ body, ul, li, p{
     font-size: 1.2rem;
     font-family: Arial, Helvetica, sans-serif;
 }
+/* Estilos dos Botões */
 
+.corbgbotao {
+    background-color: #20C20E;
+}
+.cortextobotao {
+    color:#20C20E !important;
+}
+/* Estilos da Navbar */
+.navbarestilo {
+    background-color: black !important; 
+}
+.nav-item a {
+    color:#20C20E !important;
+}
 /* Estilos do Slider */
 p1>b {
     font-size: 1.4em;
