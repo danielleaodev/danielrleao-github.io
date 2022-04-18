@@ -1,0 +1,141 @@
+/* Defininindo variaveis globais | Cadastrar com -- | para usar digitar var(--);*/
+:root {
+    --main-bg-color: gray;
+    --main-bg2-color: black;
+}
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.navbar-brand {
+    color: #20C20E;
+}
+p, h1, h2, h3, h4, h5, b, a {
+    color: #20C20E;
+}
+
+.titulos h1 {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin: 20px 0 20px 0;
+}
+
+body, ul, li, p{
+    /*background-color: rgb(39, 38, 38);*/
+    background-color: var(--main-bg2-color);
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilos do Slider */
+p1>b {
+    font-size: 1.4em;
+}
+
+.boxcarrossel h4 {
+    font-size: 0.9em;
+    text-align: justify;
+    text-justify: end;
+}
+
+#formatocarrossel {
+    display: flex;
+}
+
+.infoslider {
+    width: 100%;
+    display: block;
+}
+/* Estilos dos destaques */
+.imgdestaque {
+    max-height: 380px;
+}
+
+/* Estilos dos últimos reviews */
+.ultimosreviews h3 {
+    font-size: 1.2em;
+}
+.ultimosreviews img {
+    padding: 10px;
+}
+.ultimosreviews p {
+    font-size: 0.8em;
+    text-align: justify;
+    text-justify: end;
+}
+
+/* Estilos das Entrevistas */
+
+.entrevistas p {
+    font-size: 0.8em;
+}
+
+/* Estilos das novidades */
+.novidades {
+    padding: 20px;
+}
+
+.novidades p {
+    font-size: 0.8em;
+    padding: 15px 0 15px 0;
+    text-align: justify;
+    text-justify: end;
+}
+
+.novidades button {
+    padding: 0 20px;
+    margin: 0 5px;
+}
+
+/* Estilos do Sobre e Editorial */
+.sobre h4 {
+    font-size: 0.8em;
+    text-align: justify;
+    text-justify: end;
+}
+
+.redessociais {
+    font-size: 0.9em;
+}
+
+.redessociais i {
+    padding-right: 20px;
+}
+
+/* Estilos do Rodapé */
+.rodape {
+    text-align: center;
+    padding: 20px 0 10px 0;
+}
+.rodape h4 {
+    font-size: 0.7em;
+}
+
+/*Media Queries*/
+
+
+/*Celulares*/
+@media screen and (max-width:500px) {
+    .boxcarrossel h4 {
+        padding: 0 0 10px 0;
+    }
+    .cardreview {
+        padding: 0 0 20px 0;
+    } 
+}
+
+/*Tablets*/
+@media screen and (min-width:501px) and (max-width:990px) {
+    .boxcarrossel h4 {
+        padding: 0 0 8px 0;
+    }
+    .boxcarrossel iframe {
+        height: 294px;
+    }
+    .cardreview {
+        padding: 0 0 10px 0;
+    } 
+}
