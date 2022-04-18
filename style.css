@@ -125,6 +125,9 @@ p1>b {
     .cardreview {
         padding: 0 0 20px 0;
     } 
+    .novidades img {
+        padding: 0 0 20px 0;
+    }
 }
 
 /*Tablets*/
