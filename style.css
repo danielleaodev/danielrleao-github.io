@@ -63,6 +63,23 @@ p1>b {
     width: 100%;
     display: block;
 }
+
+/* Estilos dos Filmes Populares */
+.imgdetalhes {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 18px;
+    display: block;
+}
+
+#divListaFilmes p {
+    margin-bottom: 12px;
+    }
+
 /* Estilos dos destaques */
 .imgdestaque {
     max-height: 380px;
@@ -128,6 +145,50 @@ p1>b {
     font-size: 0.7em;
 }
 
+/* Estilos dos Detalhes */
+main {
+    margin: 0 6px 0 6px;
+}
+.imgpagdetalhes {
+    width: 100%;
+    height: auto;
+    margin-left: 12px;
+    margin-right: 12px;
+    
+}
+.textodetalhes h4{
+    font-size: 1em;
+    margin-bottom: 18px;
+}
+.textodetalhes h1 {
+    font-size: 1.6em;
+}
+
+/* Estilos da Pesquisa */
+.corpoPesquisa {
+    padding-bottom: 12px;
+}
+.cardImgPesquisa {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tituloFilmePesquisa {
+    margin-left: 12px;
+    padding-top: 18px;
+    font-weight: bold;
+}
+
+.dataFilmePesquisa {
+    margin-left: 12px;
+    font-size: 0.9em;
+    font-weight: lighter;
+}
+
+.descFilmePesquisa {
+    margin-left: 12px;
+    padding-bottom: 12px;
+}
 /*Media Queries*/
 
 
